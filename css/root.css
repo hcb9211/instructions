@@ -1,0 +1,69 @@
+body,form,input,ul,li,ol,dd,dt,span,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+    font-family:"微软雅黑" !important;
+}
+body{
+    box-sizing:border-box;
+    background:#eee;
+    overflow-x: hidden;
+    height:auto;
+}
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:0;
+}
+.clearfix:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.over-flow{
+    overflow: auto; zoom: 1;   /* zoom: 1; 是在处理兼容性问题; */
+}
+.left{
+    float:left!important;
+}
+.right{
+    float:right!important;
+}
+.center{
+    text-align: center!important;
+}
+.justify{
+    text-align: justify!important;
+}
+.text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* swiper 轮播图 */
+.swiper-wrapper {
+
+    width: 100%;
+    height:1.73rem !important;
+}
+.swiper-slide{
+    width:100% !important;
+    height:100% !important;
+    background-size:100% 100% !important;
+    background-position:center center;
+}
+.swiper-slide:nth-child(1){
+    background:url("../img/b1.jpg") no-repeat 0,0;
+}
+.swiper-slide:nth-child(2){
+    background:url("../img/b2.jpg") no-repeat 0,0;
+}
+.swiper-slide:nth-child(3){
+    background:url("../img/b3.jpg") no-repeat 0,0;
+}
+.swiper-slide:nth-child(4){
+    background:url("../img/b4.jpg") no-repeat 0,0;
+}
